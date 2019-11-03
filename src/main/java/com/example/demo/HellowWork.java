@@ -37,5 +37,8 @@ public class HellowWork {
 		return name+age;
 	}
 	
-	
+	@RequestMapping("/getName")
+	public String getName(String name) {
+		return name;
+	}
 }
